@@ -4,4 +4,9 @@ phases:
 
   build:
     commands:
-      - echo "Hello from CodeBuild"Message read by Mame Diara Sall Erdocia, Hector Diaz Jorge, Firas Tayeb 
+      - echo "Hello World!"
+      - sudo yum install -y yum-utils shadow-utils
+      - sudo yum-config-manager --add-repo https://rpm.releases.hashicorp.com/AmazonLinux/hashicorp.repo
+      - sudo yum -y install terraform
+      - terraform init
+      - terraform apply --auto-approve
