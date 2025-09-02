@@ -1,0 +1,7 @@
+version: 0.2
+
+phases:
+
+  build:
+    commands:
+      - echo "Hello from CodeBuild"Message read by Mame Diara Sall Erdocia, Hector Diaz Jorge, Firas Tayeb 
